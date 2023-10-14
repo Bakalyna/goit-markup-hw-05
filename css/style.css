@@ -559,24 +559,28 @@ address {
 
 .footer-input {
   border-radius: 4px;
-  border: 1px solid #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   padding: 8px, 24px;
   width: 264px;
   height: 40px;
   background-color: transparent;
   padding-left: 16px;
   margin-left: 80px;
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .footer-input::placeholder {
   color: #fff;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
 }
 
 .footer-form {
+  gap: 24px;
 }
 
 .footer-btn-icon {
@@ -628,8 +632,8 @@ address {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 72px 24px 24px 24px;
-  box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -655,6 +659,7 @@ address {
 .modal-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-btn-icon {
@@ -682,7 +687,7 @@ address {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -731,7 +736,7 @@ address {
 }
 
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .modal-text {
