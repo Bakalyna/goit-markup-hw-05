@@ -545,6 +545,7 @@ address {
 
 .footer-social-icon {
   fill: #f4f4fd;
+  margin-left: 16px;
 }
 
 .footer-form-text {
@@ -570,7 +571,7 @@ address {
   height: 40px;
   border: 1px solid #ffffff;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
@@ -691,8 +692,8 @@ address {
 .modal-form {
 }
 
-.modal-field {
-  margin-bottom: 8px;
+.modal-checkbox {
+  margin-bottom: 24px;
 }
 
 .modal-label {
