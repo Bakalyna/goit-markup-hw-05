@@ -588,6 +588,7 @@ address {
 .footer-btn-icon {
   width: 24px;
   height: 24px;
+  margin-left: 16px;
 }
 
 .footer-button {
@@ -609,7 +610,6 @@ address {
   cursor: pointer;
   min-width: 165px;
   height: 40px;
-  margin-left: 16px;
 }
 
 /*----------------------MODAL-WINDOW-------------------*/
@@ -743,7 +743,7 @@ address {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-text {
